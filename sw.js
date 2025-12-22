@@ -1,10 +1,11 @@
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  'index.html',
-  'manifest.json',
-  'sw.js',
-  'icons/icon.jpg',
+  './',             // Root page
+  './index.html',
+  './manifest.json',
+  './sw.js',
+  './icon.png',     // match your repo file
+  './favicon.ico'
 ];
 
 // Install: cache all assets
