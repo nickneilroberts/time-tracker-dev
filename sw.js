@@ -5,7 +5,6 @@ const urlsToCache = [
   './manifest.json',
   './sw.js',
   './icon.png',     // match your repo file
-  './favicon.ico'
 ];
 
 // Install: cache all assets
